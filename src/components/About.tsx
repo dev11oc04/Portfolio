@@ -227,7 +227,7 @@ const About = () => {
               <div className="relative glass rounded-xl overflow-hidden p-6">
                 <div className="aspect-square rounded-xl overflow-hidden mb-6">
                   <img
-                    src="src/images/profileiit.png" // Replace with your actual image path
+                    src="public/profileiit.png" // Replace with your actual image path
                     alt="Devansh Mishra"
                     className="w-full h-full object-cover rounded-xl"
                   />
