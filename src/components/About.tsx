@@ -145,6 +145,7 @@ import React, { useRef } from 'react';
 import { useInView, useCounter } from '@/utils/animations';
 import { Check } from 'lucide-react';
 import { Octokit } from 'octokit';
+import profileImage from "../images/profileiit.png";
 
 const About = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -227,7 +228,7 @@ const About = () => {
               <div className="relative glass rounded-xl overflow-hidden p-6">
                 <div className="aspect-square rounded-xl overflow-hidden mb-6">
                   <img
-                    src="public/profileiit.png" // Replace with your actual image path
+                    src={profileImage} // Replace with your actual image path
                     alt="Devansh Mishra"
                     className="w-full h-full object-cover rounded-xl"
                   />
