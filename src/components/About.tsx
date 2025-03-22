@@ -145,7 +145,7 @@ import React, { useRef } from 'react';
 import { useInView, useCounter } from '@/utils/animations';
 import { Check } from 'lucide-react';
 import { Octokit } from 'octokit';
-import profileImage from "../images/profileiit.png";
+import profileImage from ".src/images/profileiit.png";
 
 const About = () => {
   const sectionRef = useRef<HTMLElement>(null);
