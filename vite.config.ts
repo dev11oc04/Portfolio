@@ -20,4 +20,5 @@ export default defineConfig(({ mode }) => ({
   optimizeDeps: {
     exclude: ["lucide-react"], // Prevents Lucide from being pre-bundled
   },
+  assetsInclude: ["**/*.png", "**/*.PNG", "**/*.jpg", "**/*.jpeg", "**/*.svg"],  // ✅ Allow image files
 }));
